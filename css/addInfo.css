@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="button"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+#add-education,
+#add-experience {
+    float: right;
+}
+
+.education-entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10px; /* Add space between entries */
+}
+
+.remove{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.remove-education {
+    font-size: medium;
+    border: solid black;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+hr{
+    height: 100%;
+    color: black;
+}
+
+
+
+
